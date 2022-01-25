@@ -28,8 +28,11 @@ The eye is not fully visible. Layer problem, tried to mess with div tags.
 got it working, learned about the rgba
 
 r = red
+
 g = green
+
 b = blue
+
 a alpha (transparency)
 
 that is a key highlight which solves the problem
