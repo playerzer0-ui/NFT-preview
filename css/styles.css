@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.image {
+    position: absolute;
+    top: 4.1%;
+    left: 7.1%;
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.hov {
+    width: 230px;
+    height: 230px;
+    border-radius: 12px;
+    margin: 19px;
+}
+
+.eye {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+}
+
+.eye:hover {
+    opacity: 1;
+    background-color: rgba(0, 255, 247, 0.5);
+}
+
+
+.main {
+    width: 270px;
+    height: 460px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    margin: 2px 20px;
+}
+
+.text h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin: 0 0 10px 0;
+}
+
+.text h3:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.text p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+
+table {
+    margin: 20px 0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+table img {
+    padding: 0 5px 0 0;
+    position: relative;
+    top: 3px;
+}
+
+.eth {
+    padding: 0 25px 0 0;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.time {
+    padding: 0 0 0 25px;
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    position: relative;
+    bottom: 5px;
+    color: hsl(215, 32%, 27%);
+}
+
+.profile {
+    margin: 5px 10px 0 0;
+}
+
+.profile img {
+    height: 25px;
+    width: 25px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 100px;
+}
+
+.profile span {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.profile span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.profile p {
+    font-size: 12px;
+    position: relative;
+    left: 30px;
+    bottom: 28px;
+    margin: 5px;
+}
+
+.back {
+    width: 270px;
+    height: 460px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.attribution {
+    position: absolute;
+    top: 95%;
+    left: 39%;
+}
