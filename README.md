@@ -23,7 +23,7 @@ The eye is not fully visible. Layer problem, tried to mess with div tags.
 
 ## Lessons
 
-![](read_image/untitled.jpg)
+![](read_image/Untitled.jpg)
 
 got it working, learned about the rgba
 
